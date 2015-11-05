@@ -1,9 +1,6 @@
 import { Component, PropTypes } from 'react';
 
 export default class Counter extends Component {
-  addToCounter() {
-    let counter += 1;
-  },
   render() {
     return (
       <div>
